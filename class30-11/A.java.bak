@@ -1,0 +1,9 @@
+interface A
+{
+	void test1();
+}
+class B implements A
+{
+	void test1()
+	{}
+}

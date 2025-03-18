@@ -1,0 +1,14 @@
+<project default="doc">
+<target name="compile" >
+<javac srcdir="src" destdir="classes"/>
+</target>
+<target name="run" depends="compile">
+<java classname="abc.A" classpath="classes"/>
+</target>
+<target name="jar" depends="run">
+<jar destfile="lib/A.jar" basedir="classes"/>
+</target>
+<target name="javadoc" depends="compile">
+<javadoc destdir="doc" sourcepath="src" packagenames="abc" />
+</target>
+</project>

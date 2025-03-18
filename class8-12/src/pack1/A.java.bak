@@ -1,0 +1,10 @@
+package pack1;
+interface B
+{
+	class A
+	{
+	}
+	static class B
+	{
+	}
+}

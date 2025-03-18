@@ -1,0 +1,22 @@
+class A
+{
+	A(){}
+	A(int i)
+	{
+	System.out.println(1);
+	}
+}
+class B extends A
+	{
+		B()
+		{
+		System.out.println(2);
+		}
+	}
+class Manager
+	{
+		public static void main(String args[])
+		{
+			B b1=new B();
+		}
+	}

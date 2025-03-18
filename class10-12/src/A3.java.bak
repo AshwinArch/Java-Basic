@@ -1,0 +1,25 @@
+final class A3
+{
+	final class B
+	{
+		final class C
+		{
+			final class D
+			{
+				void Test()
+				{
+					System.out.println("Class - D");
+				}
+			}
+		}
+	}
+	public static void main(String[] args) 
+	{
+		A3 a1=new A3();
+		A3.B a2=new B();
+		A3.B.C a3=new C();
+		A3.B.C.D a4=new D();
+		a4.Test();
+		System.out.println("Done !");
+	}
+}

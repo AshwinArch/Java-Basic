@@ -1,0 +1,19 @@
+class J
+{ 
+	D(int i,double j)
+	{
+	System.out.println("int,double");
+	}
+	D(double i , double j)
+	{
+	System.out.println("double , double");
+	}
+}
+class Manager
+{
+public static void main(String[] args) 
+	{
+	D d1=new D(10,10.0);
+	D d2=new D(10.0,10.3);
+	}
+}
