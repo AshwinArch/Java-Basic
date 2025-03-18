@@ -1,6 +1,0 @@
-package pack5;
-
-public class B
-{
-	public static int i=100;
-}
